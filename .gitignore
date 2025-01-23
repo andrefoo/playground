@@ -15,4 +15,7 @@ dist/
 build/
 
 # Logs
-*.log 
+*.log
+
+# Virtual Environment
+venv/ 

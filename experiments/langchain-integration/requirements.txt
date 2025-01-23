@@ -1,0 +1,3 @@
+langchain-fireworks
+python-dotenv 
+numpy
