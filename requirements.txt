@@ -1,0 +1,10 @@
+# Core Fireworks dependencies
+fireworks-ai
+langchain-fireworks
+
+# Image processing
+Pillow
+
+# Utilities
+python-dotenv
+numpy
