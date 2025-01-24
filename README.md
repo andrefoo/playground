@@ -38,4 +38,14 @@ Located in `experiments/image-generation/`
 Examples:
 - `generate-image.py`: Create images from text prompts
 - `image-to-image.py`: Modify existing images with new prompts
-- `controlnet.py`: Use ControlNet for structured image generation 
+- `controlnet.py`: Use ControlNet for structured image generation
+
+### 3. Model Querying
+Located in `experiments/querying/`
+- Text model interactions with customizable system prompts
+- Vision model capabilities for image analysis
+- Interactive chat sessions with model responses
+
+Examples:
+- `text-model.py`: Interactive chat with customizable system prompts
+- `vision-model.py`: Image analysis using Phi-3 Vision model 
