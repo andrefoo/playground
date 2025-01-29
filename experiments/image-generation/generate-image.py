@@ -9,11 +9,11 @@ load_dotenv()
 
 # Initialize the ImageInference client
 fireworks.client.api_key = os.getenv("FIREWORKS_API_KEY")
-inference_client = ImageInference(model="stable-diffusion-xl-1024-v1-0")
+inference_client = ImageInference(model="SSD-1B")
 
 # Generate an image using the text_to_image method
 answer : Answer = inference_client.text_to_image(
-    prompt="A beautiful sunset over the ocean with a car freely floating in the water",
+    prompt="A californian sky over an 10-legged robot with big cat eyes",
     negative_prompt="fish, boat",
     cfg_scale=7,
     height=1024,

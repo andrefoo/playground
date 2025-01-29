@@ -8,3 +8,9 @@ Pillow
 # Utilities
 python-dotenv
 numpy
+
+# Web Framework
+fastapi
+uvicorn
+jinja2
+python-multipart
