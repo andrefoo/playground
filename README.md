@@ -49,3 +49,18 @@ Located in `experiments/querying/`
 Examples:
 - `text-model.py`: Interactive chat with customizable system prompts
 - `vision-model.py`: Image analysis using Phi-3 Vision model 
+
+### 4. Chatbot Implementation
+Located in `chatbot/`
+- EXTREMELY SIMPLE real-time chat interface using FastAPI and WebSocket
+- Streaming responses from Mixtral-8x7b-instruct model
+- Interactive web interface with dynamic message updates
+
+Relevant files:
+- `main.py`: FastAPI server with WebSocket implementation
+- `templates/chat.html`: Frontend chat interface
+
+## Running the Chatbot
+1. Navigate to the chatbot directory
+2. Run the FastAPI server: `uvicorn chatbot.main:app --reload`
+3. Open `http://localhost:8000` in your browser 

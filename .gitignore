@@ -9,6 +9,9 @@ vendor/
 # IDE files
 .vscode/
 .idea/
+*.swp
+*.swo
+
 
 # Build output
 dist/
@@ -18,4 +21,17 @@ build/
 *.log
 
 # Virtual Environment
-venv/ 
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# OS specific files
+.DS_Store
+Thumbs.db

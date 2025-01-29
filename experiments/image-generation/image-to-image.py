@@ -9,7 +9,7 @@ load_dotenv()
 
 # Initialize the ImageInference client
 fireworks.client.api_key = os.getenv("FIREWORKS_API_KEY")
-inference_client = ImageInference(model="stable-diffusion-xl-1024-v1-0")
+inference_client = ImageInference(model="playground-v2-1024px-aesthetic")
 
 # Modify an existing image using the image_to_image method
 answer : Answer = inference_client.image_to_image(
